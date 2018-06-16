@@ -1,8 +1,7 @@
 {
   "profiles": {
     "Mowrer.RUDS.Core": {
-      "commandName": "Project",
-      "commandLineArgs": "D:\\Documents\\test.uds"
+      "commandName": "Project"
     }
   }
 }

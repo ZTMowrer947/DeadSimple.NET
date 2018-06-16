@@ -4,6 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <StartupObject>Mowrer.RUDS.Core.Interpreter</StartupObject>
+    <AssemblyName>ruds</AssemblyName>
   </PropertyGroup>
 
 </Project>
