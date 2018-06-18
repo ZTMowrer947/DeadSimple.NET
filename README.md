@@ -9,6 +9,8 @@ R U DS is an esoteric programming language created by me with only 4 operations:
 This language was created as a proof-of-concept for a very simple yet limited language that could at least display output to the console without directly altering memory values. This language technically does not use a stack internally, but incrementing and decrementing numbers does simulate the use of a stack that stores integers.
 
 ### Syntax
+The four instructions are applied to a single integer variable.
+
 - R: Resets to 0
 - U: Increments by 1
 - D: Decrements by 1
