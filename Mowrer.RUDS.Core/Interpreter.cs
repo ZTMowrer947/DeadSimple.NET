@@ -8,7 +8,7 @@ namespace Mowrer.RUDS.Core
         public static void Main(string[] args)
         {
 			if (args.Length == 0 || args.Length > 1)
-				Console.WriteLine("Usage: ruds FILE_NAME.uds");
+				Console.WriteLine("Usage: dotnet ruds.dll FILE_NAME.uds");
 			else
 				try
 				{
