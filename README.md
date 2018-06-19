@@ -1,4 +1,4 @@
-# RUDS.NET
+# R-U-DS.NET
 A .NET Implementation of my very own R U DS Programming Language
 
 ## What is R U DS?
