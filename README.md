@@ -48,5 +48,5 @@ You must have .NET Core 2.0 installed to use this interpreter.
 Visual Studio (the IDE) would also be nice.
 
 1. Download the project
-2. If you have Visual Studio, build the project there. If not run `dotnet build Mowrer.RUDS.sln /p:Configuration=Release /p:Platform="Any CPU"` in the src/Mowrer.RUDS directory.
-3. In the `src/Mowrer.RUDS/Mowrer.RUDS.Core/bin/Release/netcoreapp2.0` directory, run `dotnet ruds.dll <filename>`, replacing the filename with the path to the file containing R U DS code.
+2. If you have Visual Studio, build the project there. If not run `dotnet build Mowrer.RUDS.sln /p:Configuration=Release /p:Platform="Any CPU"` in the root directory.
+3. In the `Mowrer.RUDS.Core/bin/Release/netcoreapp2.0` directory, run `dotnet ruds.dll <filename>`, replacing the filename with the path to the file containing R U DS code.
