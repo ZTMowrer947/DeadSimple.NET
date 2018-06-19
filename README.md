@@ -3,10 +3,12 @@ A .NET Implementation of my very own R U DS Programming Language
 
 ## What is R U DS?
 R U DS is an esoteric programming language created by me with only 4 operations: R, U, D, and S. The name comes from both the operator names and the shortening of the likely response to programming in this language:
-  
+
 **Are You Dead Serious?**
-  
+
 This language was created as a proof-of-concept for a very simple yet limited language that could at least display output to the console without directly altering memory values. This language technically does not use a stack internally, but incrementing and decrementing numbers does simulate the use of a stack that stores integers.
+
+This should not be confused with RUDS: an acronym for a few different things that have absolutely nothing to do with this project.
 
 ### Syntax
 The four instructions are applied to a single integer variable.
