@@ -24,19 +24,19 @@ namespace Mowrer.DeadSimple.Core
 				// Classify the instruction and perform the respective operation
 				switch (op)
 				{
-					case OperatorChar.R: // Reset
+					case OperatorChar.Underscore: // Reset
 						stack = 0;
 						break;
 
-					case OperatorChar.U: // Up
+					case OperatorChar.Plus:
 						stack++;
 						break;
 
-					case OperatorChar.D: // Down
+					case OperatorChar.Minus:
 						stack--;
 						break;
 
-					case OperatorChar.S: // Say
+					case OperatorChar.S: // Print out 
 						Console.Write((char)stack);
 						break;
 				}

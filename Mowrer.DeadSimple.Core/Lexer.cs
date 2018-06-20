@@ -31,17 +31,17 @@ namespace Mowrer.DeadSimple.Core
 				// Look at the characters value
 				switch (ch)
 				{
-					// R, U, D, and S become their respective instructions
-					case 'R':
-						op = OperatorChar.R;
+					// _, +, -, and S become their respective instructions
+					case '_':
+						op = OperatorChar.Underscore;
 						break;
 
-					case 'U':
-						op = OperatorChar.U;
+					case '+':
+						op = OperatorChar.Plus;
 						break;
 
-					case 'D':
-						op = OperatorChar.D;
+					case '-':
+						op = OperatorChar.Minus;
 						break;
 
 					case 'S':

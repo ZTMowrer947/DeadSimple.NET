@@ -5,9 +5,9 @@
 	/// </summary>
 	public enum OperatorChar
 	{
-		R,
-		U,
-		D,
+		Underscore,
+		Plus,
+		Minus,
 		S
 	}
 }
