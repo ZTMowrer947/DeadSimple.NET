@@ -3,8 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.0</TargetFramework>
-    <StartupObject>Mowrer.RUDS.Core.Interpreter</StartupObject>
-    <AssemblyName>ruds</AssemblyName>
+    <StartupObject>Mowrer.DeadSimple.Core.Interpreter</StartupObject>
+    <AssemblyName>dsi</AssemblyName>
+    <RootNamespace>Mowrer.DeadSimple.Core</RootNamespace>
   </PropertyGroup>
 
 </Project>

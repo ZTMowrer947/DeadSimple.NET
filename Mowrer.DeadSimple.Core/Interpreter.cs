@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace Mowrer.RUDS.Core
+namespace Mowrer.DeadSimple.Core
 {
 	/// <summary>
 	/// The main class that calls upon the Lexer and Parser to interpret the file recieved as an argument.
@@ -16,7 +16,7 @@ namespace Mowrer.RUDS.Core
         {
 			// Display usage message if # of arguments is wrong
 			if (args.Length == 0 || args.Length > 1)
-				Console.WriteLine("Usage: dotnet ruds.dll FILE_NAME.uds");
+				Console.WriteLine("Usage: dotnet dsi.dll FILE_NAME.ds");
 			else
 				// Otherwise, attempt to open the file
 				try

@@ -1,8 +1,8 @@
-﻿using Mowrer.RUDS.Core.Models;
+﻿using Mowrer.DeadSimple.Core.Models;
 using System;
 using System.Collections.Generic;
 
-namespace Mowrer.RUDS.Core
+namespace Mowrer.DeadSimple.Core
 {
 	/// <summary>
 	/// Responsible for parsing the instructions and performing the respective operations.

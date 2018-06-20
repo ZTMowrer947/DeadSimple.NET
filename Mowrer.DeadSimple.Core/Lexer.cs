@@ -1,8 +1,8 @@
 ﻿using System.IO;
 using System.Collections.Generic;
-using Mowrer.RUDS.Core.Models;
+using Mowrer.DeadSimple.Core.Models;
 
-namespace Mowrer.RUDS.Core
+namespace Mowrer.DeadSimple.Core
 {
 	/// <summary>
 	/// Responsible for splitting the file into tokens which identify which operations to perform.
